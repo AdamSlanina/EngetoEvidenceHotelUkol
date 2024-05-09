@@ -20,5 +20,6 @@ public class bookingList {
                 System.out.println(listOfBooking);
             }
         }
+        System.out.println("List is empty");
     }
 }
