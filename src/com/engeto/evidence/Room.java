@@ -1,11 +1,11 @@
 package com.engeto.evidence;
 
 public class Room {
-    private final int roomNumber;
-    private final int numberOfBeds;
-    private final boolean hasBalcony;
-    private final boolean hasSeaView;
-    private final double pricePerNight;
+    private int roomNumber;
+    private int numberOfBeds;
+    private boolean hasBalcony;
+    private boolean hasSeaView;
+    private double pricePerNight;
 
     public Room(int roomNumber, int numberOfBeds, boolean hasBalcony, boolean hasSeaView, double pricePerNight) {
         this.roomNumber = roomNumber;
@@ -17,6 +17,26 @@ public class Room {
 
     public int getRoomNumber() {
         return roomNumber;
+    }
+
+    public void setRoomNumber(int roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+
+    public void setNumberOfBeds(int numberOfBeds) {
+        this.numberOfBeds = numberOfBeds;
+    }
+
+    public void setHasBalcony(boolean hasBalcony) {
+        this.hasBalcony = hasBalcony;
+    }
+
+    public void setHasSeaView(boolean hasSeaView) {
+        this.hasSeaView = hasSeaView;
+    }
+
+    public void setPricePerNight(double pricePerNight) {
+        this.pricePerNight = pricePerNight;
     }
 
     public int getNumberOfBeds() {

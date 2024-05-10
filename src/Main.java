@@ -15,7 +15,7 @@ public class Main {
 
         bookingTwo.addGuests(jan);
 
-        bookingList bookings = new bookingList();
+        BookingManager bookings = new BookingManager();
 
         bookings.addBooking(bookingOne);
         bookings.addBooking(bookingTwo);
