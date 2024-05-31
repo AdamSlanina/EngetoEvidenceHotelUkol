@@ -48,7 +48,15 @@ public class Room {
     }
 
     public boolean isHasSeaView() {
-        return hasSeaView;
+        if(this.hasSeaView){
+            return true;
+        }
+        else return false;
+    }
+    public String hasView(){
+        if(!isHasSeaView()){
+            return "ne";
+        }else return "ano";
     }
 
     public double getPricePerNight() {
